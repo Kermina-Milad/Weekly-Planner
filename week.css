@@ -1,0 +1,61 @@
+html{
+    background: rgb(226,203,199);
+background: linear-gradient(90deg, rgba(226,203,199,1) 0%, rgba(245,166,150,1) 25%, rgba(251,155,133,1) 50%, rgba(245,166,150,1) 75%, rgba(226,203,199,1) 100%);
+}
+body{
+   min-height: 100vh;
+}
+h1{
+    margin-left: 42%;
+    margin-top: 5%;
+    color:white;
+    font-family: 'Pacifico', cursive;
+}
+.section{
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 20vh;
+    width: 18%;
+    border: 2px white solid;
+    border-top: 0px;
+    display: inline-block;
+    overflow: hidden;
+    
+}
+.header{
+    background:white;
+    width: 100%;
+    height: 100%;
+    margin-top: -7.4%;
+    transition-duration: 1s;
+    opacity: 0.9;
+    
+   
+}
+.section:hover .header{
+height: 20%;
+opacity: 1;
+}
+.section:hover .header p{
+    opacity: 0;
+    }
+
+.header h2, .header p{
+    text-align: center;
+   padding-top: -5%;
+    color:  rgb(251,155,133);
+   
+}
+.header p{
+    font-size: 2vw;
+}
+.tasks{
+    width: 100%;
+    height: 60%;
+}
+
+.tasks li{
+color: white;
+font-size: 1.2vw;
+
+}
